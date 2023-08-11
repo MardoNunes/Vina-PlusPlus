@@ -1,4 +1,7 @@
 # Vina++
+Trabalho realizado na Disciplina de Programação 2 - UFPR;
+
+
 O objetivo deste trabalho é implementar o programa vina++, que consiste de um arquivador básico (archiver), isto é, um programa que salva em sequência uma coleção de arquivos (denominados membros) dentro de outro arquivo (denominado archive) cuja estrutura permite recuperar os arquivos originais individualmente.
 
 
@@ -39,3 +42,6 @@ vina++ -m despesas.ods backup.vpp arq.txt
 ```bash
 cd Vina-PlusPlus && make
 ```
+
+#### OBS:
+Programa sujeito a muitos bugs :)
