@@ -1,0 +1,10 @@
+void list(char *archiver);
+int fileName(int jump, char **name, FILE *arq);
+int fileMode(int jump, char **mode, FILE *arq);
+int fileId(int jump, char **id, FILE *arq);
+int Size(int jump, char **size, FILE *arq);
+int Date(int jump, char **date, FILE *arq);
+int Order(int jump, char **order, FILE *arq, short *stop);
+void mode_to_string(int mode, char *str);
+void printFile(char *name, char *mode, char *id, char *size, char *date, char *ordem);
+int takeJump(FILE *arq, short *blz);
