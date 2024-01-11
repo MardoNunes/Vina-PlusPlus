@@ -22,19 +22,19 @@ Onde a opção pode ser:
 #### Exemplos:
 ```bash
   // inclui os arquivos "arq.txt", "foto.jpg" e "despesas.ods" em backup.vpp 
-vina++ -i backup.vpp arq.txt foto.jpg despesas.ods
+./vina++ -i backup.vpp arq.txt foto.jpg despesas.ods
 
 // atualiza "despesas.ods" em backup.vpp, se o arquivo externo for mais recente
-vina++ -a backup.vpp despesas.ods
+./vina++ -a backup.vpp despesas.ods
 
 // extrai o arquivo arq.txt de backup.vpp
-vina++ -x backup.vpp arq.txt
+./vina++ -x backup.vpp arq.txt
 
 // extrai todos os arquivos de backup.vpp
-vina++ -x backup.vpp
+./vina++ -x backup.vpp
 
 // move o arquivo "arq.txt" para depois de "despesas.ods" em backup.vpp
-vina++ -m despesas.ods backup.vpp arq.txt
+./vina++ -m despesas.ods backup.vpp arq.txt
 ```
 
 #### Execução:
